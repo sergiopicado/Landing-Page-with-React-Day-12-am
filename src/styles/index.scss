@@ -1,5 +1,54 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+#navbarJumboCardsAndFooter{ 
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#jumboAndCards{
+display: flex;
+    flex-direction: column;
+    width: 75%;
+     align-self: center;
+}
+#cardContainer { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.soloJumbo{
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+}
+.callToActionButton{
+    display: flex;
+    flex-direction: row;
+    max-width: max-content;
+}
+.singleCard { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     margin: 3px;
+
+}
+.fourButtonsLeft{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.footer{ 
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
 /* 
 
     You can write your own styles here...
